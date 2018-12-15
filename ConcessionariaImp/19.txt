@@ -1,0 +1,1 @@
+ INSERT INTO Paluguel(idVeiculo,precoFixo,precoPorKm) VALUES(7,80.00,0.30);

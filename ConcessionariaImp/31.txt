@@ -1,0 +1,1 @@
+ INSERT INTO Cliente(telefone,nome,cep,complemento,numero,numCartao,numConta) VALUES('31900001111','Geraldine dos Santos Apocalipse','17980322','Apto 902','192','1234567812345678','406089');

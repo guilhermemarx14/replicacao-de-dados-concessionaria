@@ -1,0 +1,1 @@
+ INSERT INTO Vendedor(cpfFuncionario,porcentagemComissao) VALUES('12345665400',3);

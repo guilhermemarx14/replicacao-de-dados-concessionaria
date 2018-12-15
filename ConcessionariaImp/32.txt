@@ -1,0 +1,1 @@
+ INSERT INTO Cliente(telefone,nome,cep,complemento,numero,numCartao,numConta) VALUES('33922223333','Funerária Semente LTDA.','35930022',NULL,'33','9876123409875464','165789098');

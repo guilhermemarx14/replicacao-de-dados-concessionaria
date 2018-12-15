@@ -1,0 +1,1 @@
+ INSERT INTO Veiculo(km,situacao,placa,tipo,modelo,montadora,cor) VALUES (1555,1,'LQK-5764','carro','Fox','Volkswagen','branco');

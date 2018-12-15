@@ -1,0 +1,1 @@
+ INSERT INTO CompraVenda(dataCompraVenda,idVendedor,idCliente,idVeiculo,valorCompraVenda, troca) VALUES('20/11/2018','05345776144',2,7,-32000.00, false);

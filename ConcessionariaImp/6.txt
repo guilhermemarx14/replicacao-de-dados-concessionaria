@@ -1,0 +1,1 @@
+ INSERT INTO Veiculo(km,situacao,placa,tipo,modelo,montadora,cor) VALUES (0,1,NULL,'moto','Fazer 250','Yamaha','preto');

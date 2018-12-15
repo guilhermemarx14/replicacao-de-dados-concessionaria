@@ -1,0 +1,1 @@
+ INSERT INTO Veiculo(km,situacao,placa,tipo,modelo,montadora,cor) VALUES (5400,3,'NFS-0059','carro','Uno','Fiat','vermelho');

@@ -1,0 +1,1 @@
+ INSERT INTO Revisao(valorConserto,dataRevisao,idCliente,valorRevisao,idVeiculo,idMecanico) VALUES(150.00,'04/11/2018',2,120.00,4,'33344455511');

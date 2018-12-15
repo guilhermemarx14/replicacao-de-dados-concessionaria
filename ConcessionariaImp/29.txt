@@ -1,0 +1,1 @@
+ INSERT INTO Mecanico(cpfFuncionario,comissaoPorRevisao) VALUES('65434512409',100.00);

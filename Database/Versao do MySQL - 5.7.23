@@ -1,0 +1,3 @@
+Versao do MySQL - 5.7.23
+Navegador utilizado - Google Chrome 70.0.3538.110 (erros na inserção de manutençao foram observados no Safari, uma vez que ele não implementa o datepicker do HTML)
+versao do php - 7.1.19

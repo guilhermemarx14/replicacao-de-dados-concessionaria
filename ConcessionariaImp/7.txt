@@ -1,0 +1,1 @@
+ INSERT INTO Veiculo(km,situacao,placa,tipo,modelo,montadora,cor) VALUES (1240,1,'SCA-1298','carro','Palio','Fiat','preto');

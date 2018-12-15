@@ -1,0 +1,1 @@
+ INSERT INTO Veiculo(km,situacao,placa,tipo,modelo,montadora,cor) VALUES (20565,2,'IFA-4340','caminhao','FH 540','Volvo','branco');

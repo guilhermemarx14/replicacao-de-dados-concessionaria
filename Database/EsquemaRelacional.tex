@@ -1,0 +1,120 @@
+\documentclass[brazil, a4paper,12pt]{article}
+\bibliographystyle{plain}
+\usepackage[brazil]{babel}
+\usepackage{graphicx}
+\usepackage{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{listings}
+\usepackage{indentfirst}
+\usepackage{lmodern}
+\geometry{a4paper,left=1cm,right=1cm,top=1cm,bottom=1cm}
+
+\lstset{numbers=left,
+stepnumber=0,
+firstnumber=1,
+numberstyle=\tiny,
+extendedchars=true,
+breaklines=true,
+frame=tb,
+tabsize=2,
+basicstyle=\footnotesize,
+stringstyle=\ttfamily,
+showstringspaces=false
+}
+
+\renewcommand{\lstlistingname}{Programa}
+
+\begin{document}
+
+Veiculo(\underline{idVeiculo}, km, situacao, placa, tipo, modelo, montadora, cor)
+
+\vspace{1cm}
+
+Pvenda(\underline{idVeiculoVenda}, precoVenda)
+\begin{itemize}
+\item \emph{idVeiculoVenda} referencia Veiculo(idVeiculo)
+\end{itemize}
+
+\vspace{1cm}
+
+Paluguel(\underline{idVeiculoAluguel}, precoFixo, precoPorKm)
+\begin{itemize}
+\item \emph{idVeiculoAluguel} referencia Veiculo(idVeiculo)
+\end{itemize}
+
+\vspace{1cm}
+
+Funcionario(\underline{cpfFuncionario}, salarioFixo, nome, telefone)
+
+\vspace{1cm}
+
+Vendedor(\underline{cpfFuncionario}, porcentagemComissao)
+\begin{itemize}
+\item \emph{cpfFuncionario} referencia Funcionario(cpfFuncionario)
+\end{itemize}
+
+\vspace{1cm}
+
+Mecanico(\underline{cpfFuncionario},comissaoPorRevisao)
+\begin{itemize}
+\item \emph{cpfFuncionario} referencia Funcionario(cpfFuncionario)
+\end{itemize}
+
+\vspace{1cm}
+
+Cliente(\underline{idCliente}, telefone, nome, cep, complemento, numero, numCartao, numConta)
+
+\vspace{1cm}
+
+Pfisica(\underline{idCliente}, cpf)
+\begin{itemize}
+\item \emph{idCliente} referencia Cliente(idCliente)
+\end{itemize}
+
+\vspace{1cm}
+
+Pjuridica(\underline{idCliente},cnpj)
+\begin{itemize}
+\item \emph{idCliente} referencia Cliente(idCliente)
+\end{itemize}
+
+\vspace{1cm}
+
+Revisao(\underline{idRevisao}, efetivado, valorConserto, dataRevisao, idCliente, valorRevisao, idVeiculo, idMecanico)
+
+\begin{itemize}
+\item \emph{idCliente} referencia Cliente(idCliente)
+\item \emph{idVeiculo} referencia Veiculo(idVeiculo)
+\item \emph{idMecanico} referencia Mecanico(cpfFuncionario)
+\end{itemize}
+
+\vspace{1cm}
+
+Aluguel(\underline{idVeiculo},\underline{idCliente}, \underline{idVendedor}, \underline{idRevisao}, valorTotal, kmRodados, dataFim, dataInicio, multaAtraso, finalizado)
+
+\begin{itemize}
+\item \emph{idCliente} referencia Cliente(idCliente)
+\item \emph{idVeiculo} referencia Paluguel(idVeiculo)
+\item \emph{idVendedor} referencia Vendedor(cpfFuncionario)
+\item \emph{idRevisao} referencia Revisao(idRevisao)
+\end{itemize}
+
+\vspace{1cm}
+
+CompraVenda(\underline{idCompraVenda}, dataCompraVenda, idVendedor, idCliente, idVeiculo, valorCompraVenda,troca)
+
+\begin{itemize}
+\item \emph{idCliente} referencia Cliente(idCliente)
+\item \emph{idVeiculo} referencia Veiculo(idVeiculo)
+\item \emph{idVendedor} referencia Vendedor(cpfFuncionario)
+\end{itemize}
+
+\vspace{1cm}
+
+Troca(\underline{idVenda},\underline{idCompra})
+\begin{itemize}
+\item \emph{idVenda} referencia CompraVenda(idCompraVenda)
+\item \emph{idCompra} referencia CompraVenda(idCompraVenda)
+\end{itemize}
+\end{document}

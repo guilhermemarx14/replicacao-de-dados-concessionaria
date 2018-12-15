@@ -1,0 +1,1 @@
+ INSERT INTO Pfisica(idCliente,cpf) VALUES(1,'17898789698');

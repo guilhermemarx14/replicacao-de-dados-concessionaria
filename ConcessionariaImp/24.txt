@@ -1,0 +1,1 @@
+ INSERT INTO Funcionario(cpfFuncionario,salarioFixo,nome,telefone) VALUES('12345665400',1351.46,'Walderice Santos da Conceição','54987675437');

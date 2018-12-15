@@ -1,0 +1,1 @@
+ INSERT INTO Veiculo(km,situacao,placa,tipo,modelo,montadora,cor) VALUES (10059,2,'AQB-0318','carro','HB20','Hyundai','vermelho');

@@ -1,0 +1,1 @@
+ INSERT INTO Aluguel(idVeiculo,idCliente,idVendedor,idRevisao,valorTotal,kmRodados,dataFim,dataInicio,multaAtraso,finalizado) VALUES(2,1,'12345665400',2,250.30,94,'15/11/2018','02/11/2018',30.00,1);

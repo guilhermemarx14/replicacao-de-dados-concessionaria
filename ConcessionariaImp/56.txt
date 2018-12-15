@@ -1,0 +1,1 @@
+INSERT INTO Funcionario VALUES ('000987',110.0,'Carla','12333')
